@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS music CASCADE;
+CREATE TABLE music (
+    id INT AUTO_INCREMENT,
+    artist VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    type VARCHAR(255) NOT NULL,
+    year INT NOT NULL,
+    PRIMARY KEY (id)
+);

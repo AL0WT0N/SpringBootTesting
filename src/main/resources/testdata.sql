@@ -1,0 +1,1 @@
+INSERT INTO `music` (`name`, `artist`, `type`, `year`) VALUES ('Test Album', 'Test Artist', 'Album', 2021);
